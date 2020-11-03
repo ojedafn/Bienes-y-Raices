@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contactos Bienes Raices</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../assets/index.css">
+	
+</head>
+<body>
+	<header>
+		<div class="contactos__nav">
+			<div class="nav__logo">
+				<a href="../index.html"><img class="zoom__hover" src="../img/logo.svg"></a>
+			</div>
+			<div class="nav__menu">
+				<a href="./nosotros.html"><button>Nosotros</button></a>
+				<a href="./anuncios.html"><button>Anuncios</button></a>
+				<a href=""><button>Blog</button></a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="views__tittle">
+			<p>Contacto</p>
+		</div>
+		<img class="contactos__img" src="../img/homeContact.jpg">
+
+		<div class="views__tittle">
+			<p>Llena el formulario de Contacto</p>
+		</div>
+
+		<form class="contactos__form">
+			<fieldset>
+				<legend>Información Personal</legend>
+
+				<label for="nombre">Nombre:</label>
+				<input type="text" name="nombre" placeholder="Tu Nombre">
+
+				<label for="mail">E-mail:</label>
+				<input type="email" name="mail" placeholder="Tu Email" >
+
+				<label for="tel">Teléfono:</label>
+				<input type="number" name="tel" placeholder="Tu teléfono">
+
+				<label for="msg">Mensaje:</label>
+				
+				<textarea id="w3review" name="w3review" rows="8" cols="50"></textarea>
+			
+			</fieldset>
+
+			<fieldset>
+				<legend>Información sobre Propiedad</legend>
+			
+				<label>Vende o Compra:</label>
+				<select>
+					<option value="1">Vende</option>
+					<option value="2">Compra</option>
+				</select>	
+				<label for="presupuesto">Presupuesto:</label>
+				<input type="text" name="presupuesto">			
+			</fieldset>
+		
+
+			<fieldset>
+				<legend>Contacto</legend>
+			
+				<p class="form_subtittle">Como desea ser Contactado:</p>
+				<label>Teléfono</label>
+				<input class="radio" type="radio" name="tel">
+				<label>Email</label>
+				<input class="radio" type="radio" name="mail">
+				<p class="form_subtittle">Si elegió Teléfono elija Fecha y Hora</p>
+				<label for="date">Fecha:</label>
+				<input type="date" name="trip-start" value="2020-09-04"      min="2020-09-04" max="2023-09-04">
+				<label for="hpur">Hora:</label>
+				<input type="time" name="hour"  min="08:00" max="18:00">
+				<button class="form__button">Enviar</button>
+			</fieldset>		
+		</form>
+	</main>
+
+	<footer>
+		<div class="footer__menu">
+			<a href="./nosotros.html"><button>Nosotros</button></a>
+			<a href="./anuncios.html"><button>Anuncios</button></a>
+			<a href=""><button>Blog</button></a>
+		</div>
+		<div class="copy">
+			<a href="http://cursofullstackphp.foxit.com.ar/comision2014/Florencia_Natali_Ojeda/" target="_blank">Copyright by Florence</a>
+		</div>
+	</footer>
+
+	
+</body>
+</html>
