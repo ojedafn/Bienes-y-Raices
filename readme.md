@@ -1,1 +1,1 @@
-## Subo proyecto con consola para Codo a Codo
+## Subo proyecto por consola para Codo a Codo
